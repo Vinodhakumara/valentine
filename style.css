@@ -52,7 +52,7 @@ body {
 .card {
   backdrop-filter: blur(12px);
   background: rgba(255, 255, 255, 0.25);
-  padding: 45px;
+  padding: 100px;
   border-radius: 22px;
   text-align: center;
   /* width: 340px; */
