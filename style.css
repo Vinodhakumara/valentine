@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: #ffd6e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 18px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.emoji {
+  font-size: 50px;
+}
+
+.buttons {
+  position: relative;
+  height: 100px;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #ff4d79;
+  color: white;
+}
+
+#noBtn {
+  background: #eee;
+  position: absolute;
+}
+
+.hint {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666;
+}
