@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>YAY 💖</title>
-  <style>
-    body {
-      background: #ffe6f0;
-      height: 100vh;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: "Segoe UI", sans-serif;
-    }
-    .box {
-      text-align: center;
-    }
-    h1 {
-      color: #ff2f68;
-    }
-    img {
-      width: 250px;
-      margin-top: 20px;
-      border-radius: 12px;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Forever 💖</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300&display=swap');
+
+body {
+  background: radial-gradient(circle, #ffe0ec, #ffb6c1);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.box {
+  text-align: center;
+  animation: pop 1s ease;
+}
+
+@keyframes pop {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #8b0033;
+}
+
+img {
+  width: 260px;
+  margin-top: 25px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+</style>
 </head>
 <body>
-  <div class="box">
-    <h1>YAY!!! 🎉💖</h1>
-    <p>You just made me the happiest person 🥰</p>
-    <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" alt="Love GIF">
-  </div>
+
+<div class="box">
+  <h1>YAY!!! 💍💖</h1>
+  <p>You just made my heart skip a beat 🥰</p>
+  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" alt="Love GIF">
+</div>
+
 </body>
 </html>
