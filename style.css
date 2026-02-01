@@ -5,7 +5,7 @@
 }
 .card {
   padding: 56px 40px; 
-  width: 580px;   /* instead of ~320–340px */
+  width: 100%;   /* instead of ~320–340px */
 /* was too tight */
 }
 
