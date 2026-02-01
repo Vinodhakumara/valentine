@@ -3,6 +3,21 @@
 * {
   box-sizing: border-box;
 }
+.card {
+  padding: 56px 40px;   /* was too tight */
+}
+
+.emoji {
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin-bottom: 32px;
+}
+
+.buttons {
+  margin-bottom: 28px;
+}
 
 body {
   height: 100vh;
