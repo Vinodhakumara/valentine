@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 .card {
-  padding: 56px 40px;   /* was too tight */
+  padding: 56px 40px; 
+  width: 380px;   /* instead of ~320–340px */
+/* was too tight */
 }
 
 .emoji {
